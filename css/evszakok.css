@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+
+img{
+    border: 5px solid black;
+    width: 300px;
+    margin: 30px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+body{
+    background-color: olivedrab;
+}
+
+img:hover{
+    transform: scale(1.5);
+}
