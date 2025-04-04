@@ -28,9 +28,23 @@
         <p>Méret</p>
         <input type="radio" name="meret" id="kicsi"><label for="kicsi">25 cm</label>
         <input type="radio" name="meret" id="kozepes"><label for="kozepes">32 cm</label>
-        <input type="radio" name="meret" id="nagy"><label for="nagy">55 cm</label>
-
-
+        <input type="radio" name="meret" id="nagy"><label for="nagy">55 cm</label><br><br>
+        <label for="alap">Kérem válasszon alapot:</label>
+     <select name="alap" id="alap">
+        <option value="ures"></option>
+        <option value="para">Paradicsomos</option>
+        <option value="tej">Tejfölös</option>
+     </select><br><br>
+    <label>Feltétek:</label>
+    <input type="checkbox" name="feltet1" id="feltet1"><label for="feltet1">sajt</label>
+    <input type="checkbox" name="feltet2" id="feltet2"><label for="feltet2">sonka</label>
+    <input type="checkbox" name="feltet3" id="feltet3"><label for="feltet3">kukorica</label>
+    <input type="checkbox" name="feltet4" id="feltet4"><label for="feltet4">ananász</label>
+    <input type="checkbox" name="feltet5" id="feltet5"><label for="feltet5">gomba</label>
+    <input type="checkbox" name="feltet6" id="feltet6"><label for="feltet6">szalámi</label><br><br>
+    <label for="uzenet">Üzenet a szakácsnak:</label><br>
+    <textarea name="uzenet" id="uzenet" cols="30" rows="10"></textarea><br>
+    <input type="submit" value="Küldés">
 
     </fieldset>
 
