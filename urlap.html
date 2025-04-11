@@ -19,7 +19,7 @@
         <legend>Személyes adatok</legend>
          <label for="nev">Név: </label><input type="text" name="nev" id="nev" placeholder="Közepes Márton" required> <br><br>
          <label for="email">Név: </label><input type="email" name="email" id="email" placeholder="valami@valami.hu" required><br><br>
-         <label for="tel">Név: </label><input type="number" name="tel" id="tel" required> <br><br>
+         <label for="tel">Név: </label><input type="tel" name="tel" id="tel" required> <br><br>
          <label for="cim">Név: </label><input type="text" name="cim" id="cim" required> <br><br>
     </fieldset>
 
@@ -44,8 +44,8 @@
     <input type="checkbox" name="feltet6" id="feltet6"><label for="feltet6">szalámi</label><br><br>
     <label for="uzenet">Üzenet a szakácsnak:</label><br>
     <textarea name="uzenet" id="uzenet" cols="30" rows="10"></textarea><br>
-    <input type="submit" value="Küldés">
-
+    <input type="button" value="Küldés" onclick="alert ('Köszönjük a megrendelését!')">
+    <button type="reset">Törlés</button>
     </fieldset>
 
 
